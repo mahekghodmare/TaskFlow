@@ -1,0 +1,230 @@
+{
+  "users": [
+    {
+      "id": "62a11ad2-7dbc-42e9-a4d8-15c294a97560",
+      "username": "head",
+      "name": "Head of Department",
+      "role": "head",
+      "salt": "595870103d0a7ad7",
+      "hash": "43d9792df63420082208e605e6b3721e90db0aedd77bc08b696e92f7c5b674bf"
+    },
+    {
+      "id": "f07a0671-a087-47c5-9dcd-f4dcc045e0ff",
+      "username": "admin",
+      "name": "Admin",
+      "role": "admin",
+      "salt": "c67af084da15cca1",
+      "hash": "00632eef23c7c941e6e77357b698f2a2fe67b5388467e9237878229b04e05b8b"
+    },
+    {
+      "id": "bb098c03-0c74-42ca-a562-4fd66cdd372d",
+      "username": "emp1",
+      "name": "Employee One",
+      "role": "employee",
+      "salt": "8b7cb81ecc6f1a6a",
+      "hash": "5b5e9b407c84ef606db402a05d27d9aa4a771e77fa20cf4ded78702dd7485b77"
+    },
+    {
+      "id": "6c90b14b-1bdb-4b36-ad63-17f222028268",
+      "username": "emp2",
+      "name": "Employee Two",
+      "role": "employee",
+      "salt": "be87c3ee83812c9a",
+      "hash": "6931f4446fc99aeca5e606bd4349363cef478562b7c32e64fc1d575e27b82543"
+    },
+    {
+      "id": "9c44336d-06e8-4620-8dec-0d8b51354bd1",
+      "username": "riya_123",
+      "name": "Riya",
+      "role": "employee",
+      "salt": "95e5c09df9be1701",
+      "hash": "ba205536a7b91e507dd97002af12e1bc6985273fedb5c6dcb11250f016a015a3"
+    },
+    {
+      "id": "d17746e3-4351-4e02-8bd2-7e2312adeafd",
+      "username": "siya_09090",
+      "name": "siya sharma",
+      "role": "employee",
+      "salt": "002308128797b18d",
+      "hash": "77d8cb5391d4ebbae8cb126e12fa9dacf2f359562621d2a81a9d159611d7c453"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "15df60ad-267d-48b1-904a-df8a537ead23",
+      "title": "Complete Project Report",
+      "description": "Complete and submit the project report.",
+      "assignedTo": "9c44336d-06e8-4620-8dec-0d8b51354bd1",
+      "priority": "high",
+      "dueDate": "2026-09-30",
+      "status": "in-progress",
+      "createdAt": "2026-10-01T08:25:22.139Z",
+      "internalNote": "",
+      "rating": ""
+    },
+    {
+      "id": "0cb7efae-273a-45f7-86dc-9ffb39c3499d",
+      "title": "checking cybersecurity project",
+      "description": "make a perfect report and analysis work",
+      "assignedTo": "d17746e3-4351-4e02-8bd2-7e2312adeafd",
+      "priority": "medium",
+      "dueDate": "2026-10-01",
+      "status": "done",
+      "createdAt": "2026-10-01T08:33:04.208Z",
+      "internalNote": "",
+      "rating": ""
+    }
+  ],
+  "log": [
+    {
+      "time": "2026-10-01T08:33:17.674Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Updated \"checking cybersecurity project\""
+    },
+    {
+      "time": "2026-10-01T08:33:04.208Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Assigned \"checking cybersecurity project\" to siya sharma"
+    },
+    {
+      "time": "2026-10-01T08:31:45.508Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:31:17.441Z",
+      "actor": "Riya",
+      "role": "employee",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:30:46.085Z",
+      "actor": "Head of Department",
+      "role": "head",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:30:27.233Z",
+      "actor": "Employee One",
+      "role": "employee",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:29:11.162Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Updated \"Complete Project Report\""
+    },
+    {
+      "time": "2026-10-01T08:29:03.145Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Updated \"Complete Project Report\""
+    },
+    {
+      "time": "2026-10-01T08:28:57.328Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Updated \"Complete Project Report\""
+    },
+    {
+      "time": "2026-10-01T08:28:26.964Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:25:22.139Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Assigned \"Complete Project Report\" to Riya"
+    },
+    {
+      "time": "2026-10-01T08:22:45.694Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:17:08.408Z",
+      "actor": "Head of Department",
+      "role": "head",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T08:16:33.327Z",
+      "actor": "Employee One",
+      "role": "employee",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:53:36.966Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Added employee siya sharma"
+    },
+    {
+      "time": "2026-10-01T06:38:58.221Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:38:23.185Z",
+      "actor": "Head of Department",
+      "role": "head",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:34:14.728Z",
+      "actor": "Riya",
+      "role": "employee",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:30:59.861Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Added employee Riya"
+    },
+    {
+      "time": "2026-10-01T06:29:25.131Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:27:48.068Z",
+      "actor": "Head of Department",
+      "role": "head",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:27:16.491Z",
+      "actor": "Employee One",
+      "role": "employee",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:26:12.074Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:24:51.990Z",
+      "actor": "Admin",
+      "role": "admin",
+      "action": "Logged in"
+    },
+    {
+      "time": "2026-10-01T06:23:51.106Z",
+      "actor": "Head of Department",
+      "role": "head",
+      "action": "Logged in"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{ "name": "taskflow", "version": "1.0.0", "description": "Role-based to-do app: Employee, Admin, Head", "main": "server.js", "scripts": { "start": "node server.js" } }
